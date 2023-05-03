@@ -1,0 +1,67 @@
+{
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2, 
+    "eslint.validate": [
+      "javascript", //  用eslint的规则检测js文件
+      "vue",
+      "html",
+      "typescript",
+      "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": { // eslint
+      "source.fixAll.eslint": true,
+      "source.fixAll": false
+    },
+    "files.autoSave": "off",
+    /* "editor.formatOnSave": true,
+    "editor.formatOnPaste": true, */
+    "editor.formatOnType": true,
+    "editor.suggestSelection": "first",
+    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // 代码默认使用prettier格式化
+    "[javascript]": { // js 相关操作
+      "editor.defaultFormatter": "esbenp.prettier-vscode" // 代码默认使用prettier格式化
+    },
+    "[vue]": { // vue 相关操作
+      "editor.formatOnSave": true, // 保存时格式化
+      "editor.formatOnPaste": true // 粘贴时格式化
+    },
+    "[typescript]": { // ts 相关操作
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true, // 保存时格式化
+      "editor.formatOnPaste": true
+    },
+    "[typescriptreact]": { // react ts 相关操作
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true, // 保存时格式化
+      "editor.formatOnPaste": false// 粘贴时格式化
+    },
+    "search.followSymlinks": false,
+    "files.exclude": { // 不需要扫描的文件夹
+      "**/node_modules": true,
+      "**/public": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    //"javascript.updateImportsOnFileMove.enabled": "always",
+    //"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    //"javascript.implicitProjectConfig.experimentalDecorators": true,
+    "git.autorefresh": false, // git 更新，
+    "git.detectSubmodules": false, // git 检测模块
+    "search.exclude": { // 不需要搜索的文件夹
+      "**/.idea": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always", // ts 文件移动时更新导入
+    "javascript.updateImportsOnFileMove.enabled": "always", // js 文件移动时更新导入
+    "http.proxyStrictSSL": false, // 代理严格SSL
+    "git.enableSmartCommit": true // 启用智能提交
+  }
