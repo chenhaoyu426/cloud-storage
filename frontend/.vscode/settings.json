@@ -63,5 +63,5 @@
     "typescript.updateImportsOnFileMove.enabled": "always", // ts 文件移动时更新导入
     "javascript.updateImportsOnFileMove.enabled": "always", // js 文件移动时更新导入
     "http.proxyStrictSSL": false, // 代理严格SSL
-    "git.enableSmartCommit": true // 启用智能提交
+    "git.enableSmartCommit": true, // 启用智能提交
   }
